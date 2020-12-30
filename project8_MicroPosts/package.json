@@ -1,0 +1,30 @@
+{
+  "name": "babel_webpack",
+  "version": "1.0.0",
+  "description": "Starter code using babel and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --output-public-path=/build/",
+    "json:server":"json-server --watch api/db.json"
+  },
+  "author": "Ahmed Tarek",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "core-js": "^3.8.1",
+    "regenerator-runtime": "^0.13.7",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
